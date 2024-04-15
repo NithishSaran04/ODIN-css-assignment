@@ -1,53 +1,124 @@
 *{
     font-family: "Rubik";
 }
-div{
+body{
     margin: 0;
+    padding: 0;
 }
-.header{
+
+header{
     font-size: 18px;
     color: #e5e7eb;
     height: 100px;
-    width: auto;
-    margin: 0px;
-    padding-left: 20%;
-    padding-right: 20%;
     background-color: #1f2937;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    flex: 0 0 
+    margin: 0%;
+    padding-bottom: 0%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
-.sh a{
-    margin: 10px;
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
 }
-h1{
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: 500;
-    flex: 1 1 0;
-}
+
+
+
+
+
 .top{
     background-color: #1f2937;
-    font-size: 18px;
+    height: 400px;
     color: #e5e7eb;
-    margin: 0;
-    padding-left: 100px;
-}
-.top p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 0;
+    padding-top: 0%;
+    padding-bottom: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
 }
+
+
+.content{
+    max-width: 60%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
 .top img{
-    background-color: beige;
-    float:right;
-    border: 5px solid white;
-    width: 500px;
-    height:auto;
+    max-height: 300px;
+    max-width: 300px;
 }
 h2{
     font-size: 48px;
+    font-weight: 700;
     color: #f9faf8;
+    margin-top: 0%;
+    margin-bottom: 20px;
 }
+
 button{
     background-color: #3882F6;
+    color: aliceblue;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.part2{
+    max-height: 500px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.con{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10%;
+   margin-top: 50px;
+}
+.o img{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+
+.part3{
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(195, 195, 195);
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 45px;
+}
+
+.part3 .credits{
+    align-self: flex-end;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 7%;
+    padding-right: 7%;
+    height: 50px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
