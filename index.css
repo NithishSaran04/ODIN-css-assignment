@@ -18,26 +18,31 @@ header{
     padding-bottom: 0%;
     padding-left: 7%;
     padding-right: 7%;
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
 
 header .logo{
     display: flex;
     margin-left: 30px;
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
 .logo{
     height: 100px;
+    flex: 1 1 auto;
 }
 ul{
     list-style-type: none;
     display: flex;
     gap: 30px;
+    flex: 1 1 auto;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 a{
     text-decoration: none;
     color: aliceblue;
+    flex: 1 1 auto;
 }
 
 a:hover{
@@ -48,7 +53,7 @@ a:hover{
 
 .top{
     background-color: #1f2937;
-    height: 400px;
+    max-height: 600px;
     color: #e5e7eb;
     display: flex;
     justify-content: space-between;
@@ -58,7 +63,6 @@ a:hover{
     padding-bottom: 3%;
     padding-left: 7%;
     padding-right: 7%;
-    flex: 1 1 0;
 }
 
 
@@ -66,11 +70,14 @@ a:hover{
     max-width: 60%;
     margin-bottom: 20px;
     margin-top: 20px;
+    flex: 1 1 auto;
 }
 
 .top img{
-    max-height: 80%;
-    max-width: 80%;
+    height: 60%;
+    width: 60%;
+    object-fit:cover;
+    flex: 1 1 auto;
 }
 h2{
     font-size: 48px;
@@ -78,6 +85,7 @@ h2{
     color: #f9faf8;
     margin-top: 0%;
     margin-bottom: 20px;
+    flex: 1 1 auto;
 }
 
 button{
@@ -89,6 +97,7 @@ button{
     border-radius: 20px;
     font-size: 18px;
     margin-top: 5px;
+    flex: 1 1 auto;
 }
 
 button:hover, button:focus{
@@ -97,12 +106,13 @@ button:hover, button:focus{
 }
 
 .part2{
-    max-height: 500px;
+    min-height: 500px;
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 3%;
     padding-bottom: 5%;
     text-align: center;
+    flex: 1 1 0;
 }
 .con{
    display: flex;
@@ -111,6 +121,7 @@ button:hover, button:focus{
    gap: 10%;
    margin-top: 50px;
    flex: 1 1 0;
+   flex-wrap: wrap;
 }
 .o img{
     border: 5px solid rgb(76, 246, 255);
@@ -122,7 +133,7 @@ button:hover, button:focus{
 
 
 .part3{
-    max-height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,12 +142,12 @@ button:hover, button:focus{
     padding-left: 7%;
     padding-right: 7%;
     font-size: 45px;
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
 
 .part3 .credits{
     align-self: flex-end;
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
 
 footer{
@@ -148,5 +159,5 @@ footer{
     height: 50px;
     background-color: #1f2937;
     color: #f9faf8;
-    flex: 1 1 0;
+    flex: 1 1 auto;
 }
